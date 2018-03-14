@@ -1,14 +1,9 @@
 
-
-### Ubuntu 16.04 에 설치하기
-
-https://linode.com/docs/web-servers/lamp/install-lamp-stack-on-ubuntu-16-04/
-
-MacOS 에서 클라이언트 설치
+Ubuntu 16.04 에 설치하기
 ```
+sudo apt install mysql-server
 ```
-
-
+[LAMP 설치](https://linode.com/docs/web-servers/lamp/install-lamp-stack-on-ubuntu-16-04)
 
 External Access 활성화 하기
 ```
@@ -28,11 +23,13 @@ systemctl restart mysql.service
 
 데이터베이스 복구하기
 ```
-mysql -u root -p -t < employees.sql
+mysql -u <USERNAME> -p <DATABASE-NAME> < member.sql
 ```
 
-
-
+Pagination
+``` sql
+mysql> select usn, user_name from member limit 5 offset 3;
+```
 
 
 ```

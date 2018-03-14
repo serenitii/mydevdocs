@@ -1,7 +1,7 @@
 
 기본 팩키지 설치
 ```
-sudo apt-get update && sudo apt-get upgrade
+sudo apt update && sudo apt upgrade
 sudo apt-get install build-essetial python
 ```
 
@@ -27,3 +27,16 @@ sudo bash nodesource_setup.sh
 sudo apt-get install nodejs
 node --version && npm --version
 ```
+
+기타 글로벌 노드 모듈 설치
+```
+sudo npm install -g yarn
+sudo npm install -g nodemon
+```
+
+MySQL 설치
+```
+sudo apt install mysql-server
+```
+[사용](./MySQL.md)
+
