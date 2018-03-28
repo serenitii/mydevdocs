@@ -11,9 +11,9 @@ scp
 # AWS EC2에서 파일 전송
 cp -i /path/my-key-pair.pem /path/SampleFile.txt ec2-user@ec2-198-51-100-1.compute-1.amazonaws.com:~
 ```
-daemon으로 실행
+daemon으로 실행 (ssh에서 영구적으로 실행시킬 때)
 ```
-nohup ./run.sh &
+nohup ./run.sh &!
 ```
 
 프로세스 죽이기
@@ -25,6 +25,13 @@ pgrep -f <node>
 
 # pkill, killall
 pkill <node>
+```
+
+mkcd in ZSH
+```
+vi ~/.zshrc
+# add below
+# function mkcd() { mkdir -p "$@" && cd "$@"; }
 ```
 
 

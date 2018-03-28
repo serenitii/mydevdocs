@@ -1,8 +1,9 @@
 
 기본 팩키지 설치
 ```
+lsb_release -a
 sudo apt update && sudo apt upgrade
-sudo apt-get install build-essetial python
+sudo apt-get install build-essential python
 ```
 
 패스워드 설정
@@ -14,9 +15,27 @@ sudo passwd root
 
 ZSH 설치
 ```
-sudo apt-get install -y curl vim git zsh
+sudo apt install -y zsh
+zsh
+echo $0
+sudo chsh -s $(which zsh) $(whoami)
+
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 sudo chsh -s $(which zsh) $(whoami)
+```
+
+(antigen)[https://github.com/zsh-users/antigen] 설치 (zsh 플러그인)
+
+https://github.com/andrewferrier/fzf-z
+
+
+```
+curl -L git.io/antigen > antigen.zsh
+source ./antigen.sh
+
+antigen bundle zsh-users/zsh-syntax-highlighting
+antigen theme refined
+
 ```
 
 NodeJS 설치
