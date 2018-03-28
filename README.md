@@ -1,7 +1,7 @@
 # mydevdocs
 나의 개발 관련 메모, 문서 정리
 
-[Markdown 작성법][https://gist.github.com/ihoneymon/652be052a0727ad59601]
+[Markdown 작성법](https://gist.github.com/ihoneymon/652be052a0727ad59601)
 
 - [터미널환경 설정(zsh)](./Terminal_Environment.md)
 - [MacOS 환경 설정](./MacOS_Setup.md)
