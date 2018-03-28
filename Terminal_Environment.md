@@ -1,9 +1,9 @@
 ## ZSH 설치
 
 #### ZSH 설치 (MacOS)
-```
-brew i zsh
-which zsh
+```sh
+$ brew i zsh
+$ which zsh
 ```
 /etc/shells 리스트에
 zsh의 올바른 위치가 추가되어 있어야 한다 (/bin/zsh 인지 /usr/local/bin/zsh 인지 확인 필요)
