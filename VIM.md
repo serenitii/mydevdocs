@@ -5,7 +5,7 @@
 http://www.cheetyr.com/vim
 
 
-### [vim-plug] 설치하기 (PluginMananger)
+### [vim-plug](https://github.com/junegunn/vim-plug) 설치하기 (PluginMananger)
 
 ```
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
