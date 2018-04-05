@@ -45,7 +45,7 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 zshrc 에 플러그인 추가
 ```
-plugins=(zsh-autosuggestions)
+plugins=(zsh-syntax-highlighting)
 source ~/.zshrc
 ```
 
