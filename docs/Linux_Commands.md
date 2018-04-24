@@ -34,5 +34,29 @@ vi ~/.zshrc
 # function mkcd() { mkdir -p "$@" && cd "$@"; }
 ```
 
+열려있는 포트 찾기
+```
+netstat -an | grep -i "listen"
+sudo lsof -i -P | grep -i "listen"
+```
 
 
+### getting hardware info
+```
+# cpu info
+nproc
+lscpu
+less /proc/cpuinfo
+
+# memory info
+free -m
+cat /proc/meminfo
+vmstat -s
+htop
+sudo dmidecode -t 17
+
+# disk info
+df -h
+du -sh /etc/
+du -ch *.png
+```

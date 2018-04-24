@@ -3,7 +3,7 @@
 ```
 lsb_release -a
 sudo apt update && sudo apt upgrade
-sudo apt-get install build-essential python
+sudo apt-get install -y build-essential python git curl
 ```
 
 패스워드 설정
@@ -58,4 +58,20 @@ MySQL 설치
 sudo apt install mysql-server
 ```
 [사용](./MySQL.md)
+
+
+Boost 설치
+```
+
+```
+
+
+### Troubleshooting
+
+- [zsh no such file or directory /root/.rvm/bin/rvm-prompt](https://stackoverflow.com/questions/6636066/zsh-rvm-woes-rvm-prompt-doesnt-resolve)
+  ```
+  curl -sSL https://get.rvm.io | bash
+  ```
+  
+  
 

@@ -107,3 +107,8 @@ temp-memo
 - Wrapping and Braces / if() statement / else on new line
 
 
+### MySQL
+https://mysqlserverteam.com/the-client-library-part-4-how-to-write-a-simple-mysql-client-in-c-using-cmake-and-pkg-config/
+
+
+
